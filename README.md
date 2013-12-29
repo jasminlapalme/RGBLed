@@ -20,7 +20,8 @@ Here is a sample code on how to use this code
 
 		if (test)
 		{
-			// Set the color to orange until process() is finished and the led will come back to the state it was before
+			// Set the color to orange until process() is finished and the led will
+			// come back to the state it was before
 			RGBLed::state st(&led, RGBLed::ORANGE, RGBLed::ON);
 			process();
 		}
